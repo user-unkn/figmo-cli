@@ -67,7 +67,7 @@ async function main(): Promise<void> {
         strict: true,
       });
       await loginCommand({
-        apiUrl: values["api-url"] ?? "https://app.figmo.dev",
+        apiUrl: values["api-url"] ?? "https://figmo-user-unkn.vercel.app",
       });
       break;
     }

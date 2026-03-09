@@ -17,7 +17,7 @@ export async function initCommand(opts: InitOptions): Promise<void> {
   const config: FigmoConfig = {
     org: opts.org,
     project: opts.project,
-    apiUrl: opts.apiUrl ?? "https://app.figmo.dev",
+    apiUrl: opts.apiUrl ?? "https://figmo-user-unkn.vercel.app",
     outDir: opts.outDir ?? "./design-system",
     installationId: randomUUID(),
     label: basename(process.cwd()),
